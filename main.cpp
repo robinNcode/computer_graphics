@@ -1,5 +1,5 @@
 #include <iostream>
-#include<graphics.h>
+#include <graphics.h>
 #include "emoji.h"
 #include "flag.h"
 #include "animated_circle.h"
@@ -14,12 +14,12 @@ bool stayInProgram = true;
 
 void pattern(string input)
 {
-    cout<<"\t\t\t"<<input<<endl;
+    cout << "\t\t\t" << input << endl;
 }
 
 void invoke(void (*func)())
 {
-    int gd = DETECT,gm;
+    int gd = DETECT, gm;
     initgraph(&gd, &gm, "C:\\TC\\BGI");
 
     exit_output();
@@ -27,17 +27,16 @@ void invoke(void (*func)())
 
     getch();
     closegraph();
-
 }
 
 int main()
 {
     int x;
-    while(stayInProgram)
+    while (stayInProgram)
     {
-        cout<<"\t\t\t<<<<<<<<<< Computer Graphics Project >>>>>>>>>>>"<<endl;
-        cout<<"\t\t\t<<<<<<<<<<       CSE1901016113       >>>>>>>>>>>"<<endl;
-        cout<<"\t\t\t************************************************"<<endl;
+        cout << "\t\t\t<<<<<<<<<< Computer Graphics Project >>>>>>>>>>>" << endl;
+        cout << "\t\t\t<<<<<<<<<<       CSE1901016113       >>>>>>>>>>>" << endl;
+        cout << "\t\t\t************************************************" << endl;
         pattern("1. Digital Clock");
         pattern("2. Flag");
         pattern("3. Emoji");
@@ -45,10 +44,10 @@ int main()
         pattern("5. My Hut");
         pattern("6. Exit");
 
-        cout<<"Enter an option :";
-        cin>>x;
+        cout << "Enter an option :";
+        cin >> x;
 
-        switch(x)
+        switch (x)
         {
         case 1:
             invoke(&digitalClock);
@@ -69,7 +68,6 @@ int main()
             stayInProgram = false;
             break;
         }
-
     }
 
     return 0;
