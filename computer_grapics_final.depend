@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1649182232 source:e:\code\c++\computer_grapics_final\main.cpp
+	<iostream>
+	<graphics.h>
+	"name.h"
+	"emoji.h"
+	"flag.h"
+	"animated_circle.h"
+	"bar_chart.h"
+	"exit_out.h"
+
+1649181167 e:\code\c++\computer_grapics_final\emoji.h
+
+1649180971 e:\code\c++\computer_grapics_final\flag.h
+
+1649181298 e:\code\c++\computer_grapics_final\animated_circle.h
+
+1649181117 e:\code\c++\computer_grapics_final\bar_chart.h
+
+1649182302 e:\code\c++\computer_grapics_final\exit_out.h
+	"night_sky.h"
+
+1649181491 e:\code\c++\computer_grapics_final\name.h
+
+1649182340 e:\code\c++\computer_grapics_final\night_sky.h
+	<dos.h>
+	<stdlib.h>
+
