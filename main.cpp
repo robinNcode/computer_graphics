@@ -10,7 +10,7 @@
 
 using namespace std;
 
-bool stayInProgram = true;
+bool active = true;
 
 void pattern(string input)
 {
@@ -32,7 +32,7 @@ void invoke(void (*func)())
 int main()
 {
     int x;
-    while (stayInProgram)
+    while (active)
     {
         cout << "\t\t\t<<<<<<<<<< Computer Graphics Project >>>>>>>>>>>" << endl;
         cout << "\t\t\t<<<<<<<<<<       CSE1901016113       >>>>>>>>>>>" << endl;
@@ -65,7 +65,7 @@ int main()
             invoke(&myHut);
             break;
         default:
-            stayInProgram = false;
+            active = false;
             break;
         }
     }
