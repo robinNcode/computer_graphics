@@ -32,7 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="animated_circle.h" />
+		<Unit filename="bar_chart.h" />
+		<Unit filename="clock.h" />
+		<Unit filename="emoji.h" />
+		<Unit filename="exit_out.h" />
+		<Unit filename="flag.h" />
+		<Unit filename="hut.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="name.h" />
+		<Unit filename="night_sky.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
